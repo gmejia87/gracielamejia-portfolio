@@ -68,6 +68,7 @@ footer h2 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    image-orientation: initial;
 }
 
 .hero-details {
@@ -89,6 +90,7 @@ footer h2 {
     text-align: left;
     border-bottom: 3px dashed;
 }
+/* section title ends */
 
 
 /* about me section starts */
