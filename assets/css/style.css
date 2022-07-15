@@ -10,7 +10,7 @@ body {
 
 /* header nav style starts */
 header {
-    padding: 25px;
+    padding: 30px;
     background-color: rgb(76, 10, 91);
     display: flex;
     justify-content: space-between;
@@ -62,18 +62,33 @@ footer h2 {
 
 /* hero style starts */
 .hero {
-    height: 400px;
-    width: 100%;
-    background-image: url("./assets/images/mario-mendez-photo.jpg");
+    background-image: url("./assets/images/cabobeach.jpg");
     background-size: cover;
     background-position: center;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: flex-start;
 }
 
-.hero h2 {
+.hero-details {
+    width: 90%;
+}
+
+.hero-details h2 {
     font-style: italic;
     color: blueviolet;
+    text-align: right;
 }
+/* hero style ends */
+
+
+/* section title starts */
+.section-title {
+    font-size: 30px;
+    color: cyan;
+    text-align: left;
+    border-bottom: 3px dashed;
+}
+
+
+/* about me section starts */
