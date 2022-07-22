@@ -87,15 +87,13 @@ footer h2 {
 .hero {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: flex-start;
+    justify-content: left;
+    padding: 50px 50px;
 }
 
 .hero-details {
     width: 35%;
-    text-align: center;
-    border-bottom: 3px solid white;
-    padding-bottom: 5px;
+    text-align: right;
 }
 
 .hero-details h2 {
@@ -108,8 +106,12 @@ footer h2 {
 /* section title starts */
 .section-title {
     font-size: 30px;
-    color: black;
-    text-align: left;
+    color: white;
+    width: 50%;
+    text-align: center;
+    border-top: 3px solid white;
+    padding-top: 5px;
+    justify-content: center;
     margin: 0 auto 35px auto;
 }
 /* section title ends */
@@ -117,19 +119,29 @@ footer h2 {
 
 /* about me section starts */
 p {
+    line-height: 1.7;
     font-size: 20px;
-    text-align: right;
-    color: white;
     margin: 0 auto;
+    text-align: center;
+    color: white;
     width: 80%;
-    float: right;
 }
 
-.responsive {
-    width: 20%;
-    max-width: 400px;
-    height: auto;
+.img {
+    flex: 1;
 }
+
+img {
+    border: 2px solid gold;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
 /* about me section ends */
 
 
