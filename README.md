@@ -24,6 +24,10 @@ A contact me section with my phone number, email and linkedin. All with function
 https://gmejia87.github.io/gracielamejia-portfolio/
  ```
 
+## Webpage screenshot
+
+![portfolio webpage screenshot]
+
 ## Created by
 ```
 Graciela Mejia
