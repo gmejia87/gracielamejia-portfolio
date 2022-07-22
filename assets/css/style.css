@@ -47,7 +47,18 @@ header nav ul li {
     font-weight: bold
 }
 
-header nav ul li:hover {
+.nav {
+    display: flex;
+}
+
+a:link,
+a:visited,
+a:focus {
+    background: black;
+    border-radius: 5px;
+}
+
+header nav ul li a:hover {
     background: lightskyblue;
     border-radius: 5px;
     text-shadow: none;
@@ -123,4 +134,8 @@ footer h2 {
     background-size: cover;
     background-position: 80%;
     background-attachment: fixed;
+}
+
+.img {
+    width: fit-content;
 }
