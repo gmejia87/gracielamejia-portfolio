@@ -57,6 +57,7 @@ a:focus {
     background: black;
     border-radius: 5px;
     text-decoration: underline white;
+    align-items: center;
 }
 
 header nav ul li a:hover {
@@ -141,11 +142,15 @@ img {
     margin-right: auto;
     width: 50%;
 }
-
 /* about me section ends */
 
 
 /* my work section starts */
+#work-container {
+    align-items: center;
+    background-color: black;
+    opacity: 50%;
+}
 
 /* my work section ends */
 
