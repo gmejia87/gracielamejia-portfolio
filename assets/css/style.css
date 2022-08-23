@@ -5,11 +5,8 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-image: url("../../assets/images/cabobeach.jpg");
-    background-size: cover;
-    background-position: 80%;
+    color: white;
 }
-
 
 /* header nav style starts */
 header {
@@ -17,7 +14,6 @@ header {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    color: black;
 }
 
 header h1 {
@@ -30,7 +26,6 @@ header h1 {
 
 header a {
     text-decoration: none;
-    color: white;
 }
 
 header nav ul {
@@ -54,14 +49,13 @@ header nav ul li {
 a:link,
 a:visited,
 a:focus {
-    background: black;
     border-radius: 5px;
     text-decoration: underline white;
-    align-items: center;
+    background: lightskyblue;
 }
 
 header nav ul li a:hover {
-    background: lightskyblue;
+    background: lavender;
     border-radius: 5px;
     text-shadow: none;
 }
@@ -99,7 +93,6 @@ footer h2 {
 
 .hero-details h2 {
     font-style: italic;
-    color: white;
 }
 /* hero style ends */
 
@@ -107,13 +100,13 @@ footer h2 {
 /* section title starts */
 .section-title {
     font-size: 30px;
-    color: white;
     width: 50%;
     text-align: center;
     border-top: 3px solid white;
-    padding-top: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
     justify-content: center;
-    margin: 0 auto 35px auto;
+    margin: 35px auto 35px auto;
 }
 /* section title ends */
 
@@ -124,23 +117,24 @@ p {
     font-size: 20px;
     margin: 0 auto;
     text-align: center;
-    color: white;
     width: 80%;
 }
 
 .img {
     flex: 1;
+    size: 50%;
 }
 
 img {
     border: 2px solid gold;
 }
 
-.center {
+.my-photo {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 30%;
+    margin-bottom: 5px;
 }
 /* about me section ends */
 
@@ -148,13 +142,20 @@ img {
 /* my work section starts */
 #work-container {
     align-items: center;
-    background-color: black;
-    opacity: 50%;
+}
+
+#sample-link {
+    text-align: center;
 }
 
 /* my work section ends */
 
 
 /* contact me section starts */
+#contact-me  {
+    align: center;
+}
+
+
 
 /* contact me section ends */
