@@ -1,91 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UFT-8">
+  <head>
+    <meta charset="UFT-8" />
     <meta name="viewpoint" content="width=device-width, initial-scale=1.0" />
     <title>Graciela Mejia Portfolio</title>
     <link rel="stylesheet" href="./assets/css/style.css" />
-</head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+  </head>
 
-<body>
-    <style>
-        body {
-            background-image: url('./assets/images/stars.jpg');
-            background-size: auto;
-        }
-    </style>
+  <body>
     <!-- header -->
     <header>
-        <h1>Graciela Mejia</h1>
-            <!-- navigation -->
-            <nav class="nav">
-                <!-- unordered list -->
-                <ul>
-                    <li>
-                        <a href="#about-me">About me</a>
-                    </li>
-                    <li>
-                        <a href="#my-work">My work</a>
-                    </li>
-                    <li>
-                        <a href="#contact-me">Contact me</a>
-                    </li>
-                </ul>
-            </nav>
+      <h1>Graciela Mejia</h1>
+      <!-- navigation -->
+      <nav class="navbar">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a href="#about-me">About me</a>
+          </li>
+          <li class="nav-item">
+            <a href="#my-work">My work</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact-me">Contact me</a>
+          </li>
+        </ul>
+      </nav>
     </header>
 
     <!-- hero -->
     <section class="hero">
-        <div class="hero-details">
-            <h2>Come on in, the water feels great ;)</h2>
-        </div>
+      <div class="hero-details">
+        <h2>Come on in, the water feels great ;)</h2>
+      </div>
     </section>
 
     <!-- about me section -->
     <section id="about-me" class="bio">
-        <div class="flex-row">
-            <h2 class="section-title">About me</h2>
-        </div>
-        <div class="flex-row">
-            <p>Hi! My name is Graciela Mejia but most call me Gracie.</p><br />
-            <p>On this page you'll find a photo of myself, samples of my work, my contact information. As well as links to my linkedin profile.</p>
-        </div>
-        <div class="img">
-            <img src="./assets/images/gmejia.jpg" alt="image of Graciela Mejia selfie style" class="my-photo" />
-        </div>
+      <div class="flex-row">
+        <h2 class="section-title">About me</h2>
+      </div>
+      <div class="flex-row">
+        <p>Hi! My name is Graciela Mejia but most call me Gracie.</p>
+        <br />
+        <p>
+          On this page you'll find a photo of myself, samples of my work, my
+          contact information. As well as links to my linkedin profile.
+        </p>
+      </div>
+      <div class="img">
+        <img
+          src="./assets/images/gmejia.jpg"
+          alt="image of Graciela Mejia selfie style"
+          class="my-photo"
+        />
+      </div>
     </section>
 
     <!-- my work section -->
     <section id="my-work">
-        <div class="flex-row">
-            <h2 class="section-title">Check out my work</h2>
+      <h2 class="section-title">Check out my work</h2>
+
+      <div class="d-flex flex-row mb-3">
+        <div class="" id="work-container">
+          <div class="top-center">Music en Vivo</div>
+          <a href="https://wilmr.github.io/Music-en-Vivo/index.html">
+            <img
+              src="./assets/images/Music en Vivo.png"
+              alt="Screenshot of Music en Vivo app"
+              target="_blank"
+            />
+          </a>
         </div>
-        <div class="flex-row" id="work-container">
-            <p>My first group project was created with two peers and myself. We created Music-en-Vivo, 
-                a site where you can find events for your favorite artist; get venue details, ticket prices. 
-                As well get randomized events results from a current top100 billboard artist. Visit the site below.</p>
-            <a id="sample-link" href="https://wilmr.github.io/Music-en-Vivo/index.html">Music-en-Vivo</a>
+        <div class="" id="work-container">
+          <div class="top-center">Smart Homie</div>
+          <a href="https://smart-homie.herokuapp.com/">
+            <img
+              src="./assets/images/smart homie.png"
+              alt="Screenshot of Smart Homie app"
+              target="_blank"
+            />
+          </a>
         </div>
+      </div>
     </section>
 
     <!-- contact me section -->
     <section id="contact-me">
-        <h2 class="section-title">Don't be shy, get in contact.</h2>
-        <ul>
-            <li>Cell: 
-                <a href="tel:707.365.3805">707-365-3805</a></li>
-            <li>Email:
-                <a href="mailto:graciela.mejia1@yahoo.com">graciela.mejia1@yahoo.com</a></li>
-            <li>
-                <a href="https://www.linkedin.com/in/gracielamejia1/">Linkedin</a></li>
-        </ul>
+      <h2 class="section-title">Don't be shy, get in contact.</h2>
+      <ul>
+        <li>Cell: <a href="tel:707.365.3805">707-365-3805</a></li>
+        <li>
+          Email:
+          <a href="mailto:graciela.mejia1@yahoo.com"
+            >graciela.mejia1@yahoo.com</a
+          >
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/gracielamejia1/">Linkedin</a>
+        </li>
+      </ul>
     </section>
 
     <!-- footer -->
     <footer>
-        <h2>Thank you for visiting Graciela Mejia's Portfolio, I look forward to working with you.</h2>
+      <h2>
+        Thank you for visiting Graciela Mejia's Portfolio, I look forward to
+        working with you.
+      </h2>
     </footer>
-</body>
-
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
